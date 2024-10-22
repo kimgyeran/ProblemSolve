@@ -1,0 +1,66 @@
+{
+	"version": "2.0.0",
+	"runner": "terminal",
+	"type": "shell",
+	"echoCommand": true,
+	"presentation": {
+		"reveal": "always"
+	},
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "C/C++23: g++.exe build active file",
+			"command": "C:/Users/user/AppData/Local/Programs/msys64/ucrt64/bin/g++.exe",
+			"args": [
+				"-fdiagnostics-color=always",
+				"-g",
+				"${file}",
+				"-o",
+				"${fileDirname}\\${fileBasenameNoExtension}.exe",
+				"-std=c++23",
+				"-lstdc++exp"
+			],
+			"options": {
+				"cwd": "C:/Users/user/AppData/Local/Programs/msys64/ucrt64/bin"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build"
+			},
+			"detail": "compiler: C:/Users/user/AppData/Local/Programs/msys64/ucrt64/bin/g++.exe"
+		},
+		{
+			"type": "cppbuild",
+			"label": "C/C++: g++.exe build active file",
+			"command": "C:/Users/user/AppData/Local/Programs/msys64/ucrt64/bin/g++.exe",
+			"args": [
+				"-fdiagnostics-color=always",
+				"-g",
+				"${file}",
+				"-o",
+				"${fileDirname}\\${fileBasenameNoExtension}.exe"
+			],
+			"options": {
+				"cwd": "C:/Users/user/AppData/Local/Programs/msys64/ucrt64/bin"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build"
+			},
+			"detail": "compiler: C:/Users/user/AppData/Local/Programs/msys64/ucrt64/bin/g++.exe"
+		},
+		{
+			"label": "execute",
+			"command": "cmd",
+			"group": "test",
+			"args": [
+				"/C",
+				"${fileDirname}\\${fileBasenameNoExtension}"
+			]
+		}
+	]
+}

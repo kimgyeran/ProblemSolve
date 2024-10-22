@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "cppStandard": "c++23",
+            "compilerPath": "C:/Users/user/AppData/Local/Programs/msys64/ucrt64/bin/g++.exe",
+            "compilerArgs": [
+                "-std=c++23",
+                "-lstdc++exp"
+            ],
+            "cStandard": "c23"
+        }
+    ],
+    "version": 4
+}

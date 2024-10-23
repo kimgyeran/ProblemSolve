@@ -6,7 +6,10 @@
 	],
 	"settings": {
 		"files.associations": {
-			"print": "cpp"
+			"print": "cpp",
+			"deque": "cpp",
+			"string": "cpp",
+			"vector": "cpp"
 		}
 	}
 }

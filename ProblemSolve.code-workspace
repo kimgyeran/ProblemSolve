@@ -9,7 +9,9 @@
 			"print": "cpp",
 			"deque": "cpp",
 			"string": "cpp",
-			"vector": "cpp"
+			"vector": "cpp",
+			"tuple": "cpp",
+			"iostream": "cpp"
 		}
 	}
 }

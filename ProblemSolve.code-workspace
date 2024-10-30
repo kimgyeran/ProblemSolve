@@ -11,7 +11,8 @@
 			"string": "cpp",
 			"vector": "cpp",
 			"tuple": "cpp",
-			"iostream": "cpp"
+			"iostream": "cpp",
+			"random": "cpp"
 		}
 	}
 }
